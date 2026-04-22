@@ -54,6 +54,10 @@ function CanvasArea() {
       <ReactFlow
         nodes={nodes}
         edges={edges}
+        defaultEdgeOptions={{ 
+          type: 'smoothstep', 
+          style: { stroke: '#6366f1', strokeWidth: 2 } // Indigo colored edges
+        }}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
