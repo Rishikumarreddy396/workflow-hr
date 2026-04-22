@@ -7,6 +7,7 @@ import { Sidebar } from './controls/Sidebar';
 import type { WorkflowNodeType } from '../types/nodes';
 import { PropertiesPanel } from './controls/PropertiesPanel';
 import { SimulationPanel } from './controls/SimulationPanel';
+import { CanvasToolbar } from './controls/CanvasToolbar';
 
 function CanvasArea() {
   const { nodes, edges, onNodesChange, onEdgesChange, onConnect, selectNode, addNode } = useWorkflowStore();
@@ -48,6 +49,7 @@ function CanvasArea() {
 
   return (
     <div className="flex-grow h-full relative" onDrop={onDrop} onDragOver={onDragOver}>
+      <CanvasToolbar />
       {/* Simulation Panel inserted here */}
       <SimulationPanel />
       
