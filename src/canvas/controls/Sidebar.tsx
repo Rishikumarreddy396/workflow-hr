@@ -1,5 +1,4 @@
-import { PlayCircle, User, UserCheck, Zap, StopCircle, LayoutDashboard, Shield, Calendar, BarChart3, Settings, HelpCircle } from 'lucide-react';
-
+import { PlayCircle, User, UserCheck, Zap, StopCircle, LayoutDashboard, Shield, Settings, HelpCircle } from 'lucide-react';
 const nodeCategories = [
   {
     title: 'Automation Nodes',

@@ -65,7 +65,7 @@ function CanvasArea() {
         onConnect={onConnect}
         onPaneClick={() => selectNode(null)}
         onNodeClick={(_, node) => selectNode(node.id)}
-        nodeTypes={nodeTypes}
+        nodeTypes={nodeTypes as any}
         fitView
       >
         <Background color="#ccc" gap={16} />

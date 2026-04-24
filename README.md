@@ -75,8 +75,8 @@ The prototype was deliberately scoped to demonstrate **frontend architecture qua
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/hr-workflow-designer.git
-cd hr-workflow-designer
+git clone https://github.com/Rishikumarreddy396/workflow-hr.git
+cd workflow-hr
 
 # 2. Install all dependencies
 npm install
@@ -343,8 +343,7 @@ Listed in rough order of estimated product impact.
 
 Built by **[Your Name]** as part of the Tredence Full Stack Engineering Intern assessment.
 
-- **GitHub:** [@your-username](https://github.com/your-username)
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **GitHub:** [Rishikumarreddy396](https://github.com/Rishikumarreddy396/workflow-hr)
 
 ---
 

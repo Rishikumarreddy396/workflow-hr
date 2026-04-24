@@ -458,7 +458,7 @@ function evaluateNode(
     default: {
       return [
         makeLog(step, node, "warning",
-          `Unknown node type "${node.type}". Skipping.`,
+          `Unknown node type "${(node as any).type}". Skipping.`,
           0
         ),
         0,

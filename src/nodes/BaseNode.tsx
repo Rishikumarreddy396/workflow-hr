@@ -1,5 +1,5 @@
 import { Handle, Position } from '@xyflow/react';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import { CheckCircle2, AlertCircle, Clock, Zap } from 'lucide-react';
 
 interface BaseNodeProps {
@@ -14,8 +14,7 @@ interface BaseNodeProps {
   status?: 'success' | 'warning' | 'error' | 'pending';
 }
 
-export function BaseNode({ id, selected, label, subLabel, icon, children, isStart, isEnd, status = 'pending' }: BaseNodeProps) {
-  // Status indicator colors based on the reference images
+export function BaseNode({ selected, label, subLabel, icon, children, isStart, isEnd, status = 'pending' }: BaseNodeProps) {  // Status indicator colors based on the reference images
   const statusColors = {
     success: 'bg-emerald-500',
     warning: 'bg-amber-500',

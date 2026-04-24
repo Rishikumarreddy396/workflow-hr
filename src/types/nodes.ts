@@ -150,7 +150,7 @@ export type WorkflowNodeType =
   | EndNodeType;
 
 /** Narrow the data type by node type string — use in node components */
-export type NodeDataByType<T extends WorkflowNodeType["type"]> = Extract
+export type NodeDataByType<T extends WorkflowNodeType["type"]> = Extract<
   WorkflowNodeType,
   { type: T }
 >["data"];

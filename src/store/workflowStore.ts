@@ -136,7 +136,7 @@ export const useWorkflowStore = create<WorkflowStore>()(
             ...node.data,
             ...(patch as Partial<WorkflowNodeData>),
             updatedAt: new Date().toISOString(),
-          };
+          } as any;
         }),
 
       // ── Selection ──────────────────────────
