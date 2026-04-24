@@ -341,7 +341,7 @@ Listed in rough order of estimated product impact.
 
 ## Author
 
-Built by **[Your Name]** as part of the Tredence Full Stack Engineering Intern assessment.
+Built by Rishi as part of the Tredence Full Stack Engineering Intern assessment.
 
 - **GitHub:** [Rishikumarreddy396](https://github.com/Rishikumarreddy396/workflow-hr)
 
